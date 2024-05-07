@@ -20,7 +20,7 @@ def minOperations(n):
     while init < n:
         remainder = n - init
         if (remainder % init == 0):
-            start = init
+            prompt = init
             init += prompt
             counter += 2
         else:
