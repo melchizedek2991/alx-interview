@@ -7,7 +7,12 @@
 
 def minOperations(n):
     """
-        A Function to determine the minimum operations needed to produce 'n' 'H' characters in a file. Args: n - Number of characters to be displayed. Returns: Minimum operations count.
+     Function that calculates fewest number of operations
+        needed to give a result of exactly n H characters in a file
+        args: n: characters of numbers to be displayed
+        return:
+               min number of  operations
+
     """
 
     init = 1
