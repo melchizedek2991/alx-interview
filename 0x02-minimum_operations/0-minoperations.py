@@ -14,16 +14,16 @@ def minOperations(n):
                number of min operations
     """
 
-    now = 1
-    start = 0
+    init = 1
+    prompt = 0
     counter = 0
-    while now < n:
-        remainder = n - now
-        if (remainder % now == 0):
-            start = now
-            now += start
+    while init < n:
+        remainder = n - init
+        if (remainder % init == 0):
+            start = init
+            init += prompt
             counter += 2
         else:
-            now += start
+            init += prompt
             counter += 1
     return counter
